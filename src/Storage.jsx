@@ -8,16 +8,19 @@ const Storage = () => {
     <div className="b-terminal">
       <div className="terminal">
         <h1 className="t-terminal">
-          Storage <GiCargoCrate />
+          <GiCargoCrate style={{ marginRight: "10px" }} />
+          Storage
         </h1>
         <Link to="/team" style={{ textDecoration: "none" }}>
           <p className="t-terminal">
-            Team <AiOutlineTeam />
+            <AiOutlineTeam />
+            Team
           </p>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
           <p className="t-terminal">
-            Exit <RxExit />
+            <RxExit style={{ marginRight: "10px" }} />
+            Exit
           </p>
         </Link>
       </div>

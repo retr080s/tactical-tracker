@@ -53,3 +53,19 @@ body {
 .t-terminal {
   color: #00ff2a;
 }
+
+.teamList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #31aa59;
+}
+
+.teamList img {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}

@@ -11,7 +11,7 @@ const Terminal = () => {
           <Link to="/storage" style={{ textDecoration: "none" }}>
             <div className="t-storage">
               <h1 className="t-terminal">
-                <GiCargoCrate />
+                <GiCargoCrate style={{ marginRight: "10px" }} />
                 Storage
               </h1>
 
