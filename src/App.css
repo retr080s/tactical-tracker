@@ -1,0 +1,22 @@
+body {
+  background-image: url("src/images/background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0;
+}
+
+.terminal {
+  text-align: center;
+  margin-top: 30vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.t-select {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.t-terminal {
+  color: #fff;
+}
