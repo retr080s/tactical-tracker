@@ -1,14 +1,19 @@
 import "./App.css";
+import Terminal from "./Terminal";
+import Team from "./Team";
+import Storage from "./Storage";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="terminal">
-      <h1 className="t-terminal">The Tactical Terminal</h1>
-      <div className="t-select">
-        <h1 className="t-terminal">T1</h1>
-        <h1 className="t-terminal">T2</h1>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Terminal />} />
+        <Route path="storage" element={<Storage />} />
+        <Route path="team" element={<Team />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

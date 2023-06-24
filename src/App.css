@@ -3,20 +3,52 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.image {
+  border: 1px solid #00ff2a;
+  padding: 10px;
+}
+
+.image:hover {
+  background: #00ff2a;
+}
+
+.b-terminal {
+  justify-content: center;
 }
 
 .terminal {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
   margin-top: 30vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid #00ff2a;
+  height: 450px;
+  width: 900px;
+  animation: fadeInAnimation ease 1s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .t-select {
   justify-content: center;
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 
 .t-terminal {
-  color: #fff;
+  color: #00ff2a;
 }
