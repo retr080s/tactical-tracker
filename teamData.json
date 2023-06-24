@@ -4,41 +4,41 @@
     "name": "John J.",
     "role": "Pilot",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/ac130.webp"
   },
   {
     "id": "12938635345129398",
-    "name": "Simon C.",
-    "role": "22ACZ",
+    "name": "Jonathan Price",
+    "role": "Captain",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/cptprice.webp"
   },
   {
     "id": "129386541353453439129398",
-    "name": "Cpt. T",
-    "role": "22BAG",
+    "name": "Simon Riley",
+    "role": "Lieutenant ",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/ghost.webp"
   },
   {
     "id": "129381235534539129398",
-    "name": "John J.",
-    "role": "22AZH",
+    "name": "Johnny MacTavish",
+    "role": "Sergeant",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/soap.webp"
   },
   {
     "id": "1293831231315565129398",
-    "name": "Simon C.",
-    "role": "22MIA",
+    "name": "Kyle Garrick",
+    "role": "Sergeant",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/gaz.webp"
   },
   {
     "id": "12938653123124139129398",
-    "name": "Cpt. T",
-    "role": "22SFL",
+    "name": "Alejandro Vargas",
+    "role": "Colonel ",
     "active": true,
-    "image": "src/images/helicopter.jpg"
+    "image": "src/images/alejandro.webp"
   }
 ]
