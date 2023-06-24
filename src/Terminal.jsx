@@ -8,25 +8,30 @@ const Terminal = () => {
       <div className="terminal">
         <h1 className="t-terminal">The Tactical Terminal</h1>
         <div className="t-select">
-          <div className="t-storage">
-            <h1 className="t-terminal">
-              {/* <Link to="/storage">
+          <Link to="/storage" style={{ textDecoration: "none" }}>
+            <div className="t-storage">
+              <h1 className="t-terminal">
                 <GiCargoCrate />
                 Storage
-              </Link> */}
-              <GiCargoCrate />
-              Storage
-            </h1>
+              </h1>
 
-            <img src="src/images/storage.png" alt="storage" className="image" />
-          </div>
-          <div className="t-team">
-            <h1 className="t-terminal">
-              {" "}
-              <AiOutlineTeam /> Team
-            </h1>
-            <img src="src/images/team.png" alt="team" className="image" />
-          </div>
+              <img
+                src="src/images/storage.png"
+                alt="storage"
+                className="image"
+              />
+            </div>
+          </Link>
+
+          <Link to="/team" style={{ textDecoration: "none" }}>
+            <div className="t-team">
+              <h1 className="t-terminal">
+                {" "}
+                <AiOutlineTeam /> Team
+              </h1>
+              <img src="src/images/team.png" alt="team" className="image" />
+            </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -8,11 +8,11 @@ body {
 
 .image {
   border: 1px solid #00ff2a;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .image:hover {
-  background: #00ff2a;
+  box-shadow: 10px 5px 20px #141414;
 }
 
 .b-terminal {
@@ -26,11 +26,12 @@ body {
   text-align: center;
   justify-content: center;
   align-content: center;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: 1px solid #00ff2a;
   height: 450px;
   width: 900px;
   animation: fadeInAnimation ease 1s;
+  backdrop-filter: blur(10px);
 }
 
 @keyframes fadeInAnimation {
