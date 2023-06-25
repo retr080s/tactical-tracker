@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { GiCargoCrate } from "react-icons/gi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { RxExit } from "react-icons/rx";
+import storageData from "../storageData.json";
 
 const Storage = () => {
   return (
@@ -23,6 +24,18 @@ const Storage = () => {
             Exit
           </p>
         </Link>
+        <div className="storageList">
+          {storageData.map((st) => {
+            return (
+              <div key={st.id}>
+                <img src={st.image} alt="image" />
+                <p>{st.name}</p>
+                <p>{st.role}</p>
+                <p>{st.active}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

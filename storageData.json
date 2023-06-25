@@ -1,0 +1,44 @@
+[
+  {
+    "id": "129381239129391238",
+    "name": "Vaznev-9K",
+    "role": "SMG",
+    "active": true,
+    "image": "src/images/weapons/vaznev.webp"
+  },
+  {
+    "id": "129386353431555129398",
+    "name": "ISO 45",
+    "role": "SMG",
+    "active": true,
+    "image": "src/images/weapons/iso.webp"
+  },
+  {
+    "id": "1293335586541353453439129398",
+    "name": "LA-B 330",
+    "role": "Sniper Rifle",
+    "active": true,
+    "image": "src/images/weapons/lab330.webp"
+  },
+  {
+    "id": "129381235513123134539129398",
+    "name": "MCPR-300",
+    "role": "Sniper Rifle",
+    "active": true,
+    "image": "src/images/weapons/mcpr300.webp"
+  },
+  {
+    "id": "12938315252231315565129398",
+    "name": "Tempus Razorback",
+    "role": "Assault Rifle",
+    "active": true,
+    "image": "src/images/weapons/razorback.webp"
+  },
+  {
+    "id": "129386531232536124139129398",
+    "name": "Lachmann-556",
+    "role": "Assault Rifle",
+    "active": true,
+    "image": "src/images/weapons/lachman556.webp"
+  }
+]
